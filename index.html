@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .section {
+            background: white;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .contact-item {
+            flex: 1;
+            min-width: 200px;
+        }
+        .news-item {
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+            margin: 15px 0;
+        }
+        .publication {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #28a745;
+        }
+        .project {
+            background: #fff3cd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #ffc107;
+        }
+        .external-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .link-item {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            border: 1px solid #2196f3;
+        }
+        .link-item a {
+            text-decoration: none;
+            color: #1976d2;
+            font-weight: bold;
+        }
+        .link-item a:hover {
+            text-decoration: underline;
+        }
+        .acknowledgment {
+            background: #f1f8e9;
+            border-left: 4px solid #8bc34a;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .header h1 {
+                font-size: 2em;
+            }
+            .contact-info {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Your Name</h1>
+        <p>Your Professional Title | Your Institution</p>
+    </div>
+
+    <div class="section">
+        <h2>About Me</h2>
+        <p>Welcome to my personal website! I am [Your Name], a [Your Professional Title] at [Your Institution]. My research interests include [Your Research Areas]. I am passionate about [Your Interests] and enjoy [Your Hobbies].</p>
+        
+        <p>I completed my [Degree] in [Field] from [University] in [Year]. Since then, I have been working on [Brief description of your work/research]. My goal is to [Your Professional Goals].</p>
+    </div>
+
+    <div class="section">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <strong>Email:</strong><br>
+                your.email@institution.edu
+            </div>
+            <div class="contact-item">
+                <strong>Office:</strong><br>
+                Room 123, Building Name<br>
+                Your Institution
+            </div>
+            <div class="contact-item">
+                <strong>Phone:</strong><br>
+                +1 (555) 123-4567
+            </div>
+            <div class="contact-item">
+                <strong>Address:</strong><br>
+                123 University Ave<br>
+                City, State 12345
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Latest News</h2>
+        <div class="news-item">
+            <strong>[Date]:</strong> New paper accepted to [Conference/Journal Name]
+        </div>
+        <div class="news-item">
+            <strong>[Date]:</strong> Presented research at [Event Name]
+        </div>
+        <div class="news-item">
+            <strong>[Date]:</strong> Started new position as [Position] at [Institution]
+        </div>
+        <div class="news-item">
+            <strong>[Date]:</strong> Received [Award/Grant Name]
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Research Interests</h2>
+        <ul>
+            <li><strong>Primary Research Area:</strong> Description of your main research focus and methodologies</li>
+            <li><strong>Secondary Research Area:</strong> Additional research interests and applications</li>
+            <li><strong>Interdisciplinary Work:</strong> Cross-domain research and collaborations</li>
+            <li><strong>Future Directions:</strong> Emerging areas and future research plans</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Publications</h2>
+        <div class="publication">
+            <strong>Journal Articles</strong>
+            <p>[Author Names]. "[Paper Title]." <em>[Journal Name]</em>, vol. X, no. Y, pp. Z-ZZ, Year. <a href="#">[DOI/Link]</a></p>
+        </div>
+        <div class="publication">
+            <strong>Conference Proceedings</strong>
+            <p>[Author Names]. "[Paper Title]." In <em>[Conference Name]</em>, pp. X-Y, Year. <a href="#">[DOI/Link]</a></p>
+        </div>
+        <div class="publication">
+            <strong>Preprints</strong>
+            <p>[Author Names]. "[Paper Title]." arXiv preprint arXiv:XXXX.XXXX, Year. <a href="#">[arXiv Link]</a></p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p><strong>Duration:</strong> Start Date - End Date</p>
+            <p><strong>Description:</strong> Brief description of the project, its objectives, and your role. Include key technologies, methodologies, or outcomes.</p>
+            <p><strong>Links:</strong> <a href="#">GitHub Repository</a> | <a href="#">Project Website</a> | <a href="#">Publication</a></p>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p><strong>Duration:</strong> Start Date - End Date</p>
+            <p><strong>Description:</strong> Brief description of another project, highlighting different skills or research areas.</p>
+            <p><strong>Links:</strong> <a href="#">GitHub Repository</a> | <a href="#">Demo</a></p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>External Links</h2>
+        <div class="external-links">
+            <div class="link-item">
+                <strong>Google Scholar</strong><br>
+                <a href="#">View Publications</a>
+            </div>
+            <div class="link-item">
+                <strong>LinkedIn</strong><br>
+                <a href="#">Professional Profile</a>
+            </div>
+            <div class="link-item">
+                <strong>GitHub</strong><br>
+                <a href="#">Code Repositories</a>
+            </div>
+            <div class="link-item">
+                <strong>ORCID</strong><br>
+                <a href="#">Research Profile</a>
+            </div>
+            <div class="link-item">
+                <strong>ResearchGate</strong><br>
+                <a href="#">Research Network</a>
+            </div>
+            <div class="link-item">
+                <strong>Twitter</strong><br>
+                <a href="#">@YourHandle</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section acknowledgment">
+        <h2>Acknowledgments</h2>
+        <p>I would like to thank my advisor [Advisor Name] for their guidance and support throughout my research journey. Special thanks to my collaborators, colleagues, and the research community for their valuable insights and feedback.</p>
+        
+        <p>This work was supported by [Grant/Funding Sources]. I am grateful to [Institution/Department] for providing the resources and environment that made this research possible.</p>
+        
+        <p><em>Website template inspired by Po-han Li's design principles, customized for academic and professional presentation.</em></p>
+    </div>
+
+    <footer style="text-align: center; margin-top: 40px; padding: 20px; color: #666;">
+        <p>&copy; 2025 Your Name. All rights reserved. | Last updated: [Current Date]</p>
+    </footer>
+</body>
+</html>
